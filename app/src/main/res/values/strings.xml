@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Buttons</string>
+    <string name="which_gender_are_you">Which Gender Are You?</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="you_have_selected">You Have Selected:</string>
+    <string name="select">Select</string>
 </resources>

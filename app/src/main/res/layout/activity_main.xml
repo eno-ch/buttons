@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Using a relative layout -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +14,7 @@
         android:layout_above="@id/radio_group"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:text="Which Gender Are You?"
+        android:text="@string/which_gender_are_you"
         android:textColor="#000000"
         android:textSize="20sp" />
     <!-- Creating A radio group that will contain the radio buttons. this makes it possible to select on button at a time.-->
@@ -32,14 +31,14 @@
             android:checked="true"
             android:textColor="#000000"
             android:onClick="checkButton"
-            android:text="Male" /><!-- Initially checking the first button-->
+            android:text="@string/male" /><!-- Initially checking the first button-->
 
         <RadioButton
             android:id="@+id/radio_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="checkButton"
-            android:text="Female"
+            android:text="@string/female"
             android:textColor="#000000"/>
     </RadioGroup>
     <!-- Creating a text button that will show you which button is selected -->
@@ -50,7 +49,7 @@
         android:layout_below="@id/radio_group"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text="You Have Selected: "
+        android:text="@string/you_have_selected"
         android:textColor="#000000"
         android:textSize="20sp" />
 
@@ -61,7 +60,7 @@
         android:layout_below="@id/radio_group"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:text="Select" />
+        android:text="@string/select" />
 
 
 </RelativeLayout>
